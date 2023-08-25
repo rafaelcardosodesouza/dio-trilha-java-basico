@@ -43,6 +43,7 @@ public class ContaTerminal {
                 System.out.print("Para finalizar, insira o saldo de depósito inicial: ");
                 account.balance = sc.nextDouble();
 
+                System.out.print(account.client());
                 entradaValida = true; // Faz a validação das entradas para sair do loop
             } catch (InputMismatchException erro) {
                 System.out.println("Erro: Valor inválido inserido. Certifique-se de inserir um valor numérico.\n");
@@ -52,13 +53,13 @@ public class ContaTerminal {
                 String opcao = sc.nextLine();
 
                 if (opcao.equalsIgnoreCase("n")) {
+                    System.out.print("Finalizando programa.");
                     sc.close();
                     break;
                 }
             }
         } while (!entradaValida);
 
-        System.out.print(account.client());
         sc.close();
     }
 }
