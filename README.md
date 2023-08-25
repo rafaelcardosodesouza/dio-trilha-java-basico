@@ -15,7 +15,7 @@ Neste projeto, desenvolvemos o ContaBanco, uma aplicação simples que simula as
 
 1. Clone este repositório.
 2. Abra o projeto em um ambiente de desenvolvimento Java.
-3. Execute o arquivo `ContaTerminal.java` localizada em: `src/application`.
+3. Execute o arquivo `ContaTerminal.java` localizada em: src/application.
 4. Siga as instruções no terminal para inserir os detalhes da conta.
 
 ## Atributos da Conta
